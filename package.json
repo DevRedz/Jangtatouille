@@ -1,0 +1,28 @@
+{
+  "name": "jangtatouille",
+  "version": "1.0.0",
+  "description": "Blog App => Recipe Blog App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/src/index.js",
+    "start:dev": "nodemon --watch backend/src/ backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevRedz/Jangtatouille.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevRedz/Jangtatouille/issues"
+  },
+  "homepage": "https://github.com/DevRedz/Jangtatouille#readme",
+  "dependencies": {
+    "koa": "^2.16.0",
+    "koa-router": "^13.0.1",
+    "mysql2": "^3.14.0",
+    "nodemon": "^3.1.9"
+  }
+}
